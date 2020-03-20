@@ -27,6 +27,6 @@ services:
        WORDPRESS_DB_PASSWORD: wordpress
        WORDPRESS_DB_NAME: wordpress
      volumes:
-       - /home/zegal/jumper/headLess/wordpress:/var/www/html
+       - /home/zegal/jumper/ajay-app/wordpress/wp-content:/var/www/html/wp-content
 volumes:
     db_data: {}
